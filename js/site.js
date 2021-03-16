@@ -13,7 +13,4 @@ function validateForm() {
 	else{
 		alert("Welcome to Mountain Boys gaming!");
 	}
-	
-	
-	
 }
