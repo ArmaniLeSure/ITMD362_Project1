@@ -1,15 +1,16 @@
-html{ 
-	text-align:center; 	
+ html{ 
+	text-align:center;
+	height: 100%; 
+	background: linear-gradient(#33ccff, #ff99cc);
 }
 body{
-	text-align:center;
-	background-color:#5BDAF0;
+	text-align:center; 
 }
-div{
+ div{
 	height: 100px;
 	border-color:black;
 }
-h1{
+/*   h1{															(ModifyThis)
 	position: absolute;
   top: 20%;
   left: 50%;
@@ -19,16 +20,16 @@ h1{
   height: 100px;
 }
 form{
-	text-align:center;
+	text-align:center;								(ModifyThis)
 	position: absolute;
   top: 25%;
   left: 50%;
   margin-top: -25px;
   margin-left: -75px;
   width: 100px;
-  height: 100px;
-	
-}
+  height: 100px; 
+}  */
+
 body{
 	text-align:center;
-}
+} 
