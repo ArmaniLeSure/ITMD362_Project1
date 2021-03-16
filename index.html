@@ -14,12 +14,12 @@
 	<body>
 		<main id="body">
 			<h1>Pro Gaming ESPORTS Team: Mountain Boys</h1>
-			<form id="ESPORTS" method="get" action="#null">
+			<form id="ESPORTS" method="get" action="#null" onsubmit="return validateForm()">
 				<fieldset>
 					<ul>
-						<div><li>Full Name: <input type="text" placeholder="Please enter full name"></li></div>
-						<div><li>Email Address: <input type="email" placeholder="Please enter email address"></li></div>
-						<div><li>DateOfBirth: <input type="date" placeholder="Please enter DOB"></li></div>
+						<div><li><label for="full-name">Full Name: </label><input type="text" placeholder="Please enter full name"></li></div>
+						<div><li><label for="email">Email Address: </label><input type="email" placeholder="Please enter email address"></li></div>
+						<div><li><label for="phone">DateOfBirth: </label><input type="date" placeholder="Please enter DOB"></li></div>
 						<div>
 							<li>Platform: <input type="checkbox" id="pc"><label for="pc"> PC </label></li>
 							<li>Platform: <input type="checkbox" id="console"><label for="console"> PS/XB </label></li>

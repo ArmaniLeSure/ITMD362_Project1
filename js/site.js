@@ -4,9 +4,9 @@ jQuery(function($){
 });
 
 function validateForm() {
-	var a = document.forms[][].value;
-	var b = document.forms[][].value;
-	var c = document.forms[][].value;
+	var a = document.forms["ESPORTS"]["full-name"].value;
+	var b = document.forms["ESPORTS"]["email"].value;
+	var c = document.forms["ESPORTS"]["phone"].value;
 	if ((a == "") || (b == "")|| (c == "")){
 		alert("Please fill in the primary sections.");
 	}
