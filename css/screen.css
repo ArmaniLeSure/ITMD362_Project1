@@ -4,6 +4,8 @@
 	text-align:center;
 	height: 100%; 
 	background: linear-gradient(#33ccff, #ff99cc);
+	font-family: Ubuntu,sans-serif; 
+	font-weight: bold;
 }
 body{
 	text-align:center; 
@@ -12,17 +14,13 @@ body{
 	height: 100px;
 	border-color:black;
 }
-/*   h1{															(ModifyThis)
-	position: absolute;
-  top: 20%;
-  left: 50%;
-  margin-top: -25px;
-  margin-left: -50px;
-  width: 200px;
-  height: 100px;
+ h1{															
+	font-family: Ubuntu,sans-serif;
+	font-size: 200%;
 }
+
 form{
-	text-align:center;								(ModifyThis)
+	text-align:center;								
 	position: absolute;
   top: 25%;
   left: 50%;
@@ -30,8 +28,6 @@ form{
   margin-left: -75px;
   width: 100px;
   height: 100px; 
-}  */
+}  
 
-body{
-	text-align:center;
-} 
+
