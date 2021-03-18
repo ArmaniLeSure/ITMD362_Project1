@@ -17,6 +17,7 @@ body{
  h1{															
 	font-family: Ubuntu,sans-serif;
 	font-size: 400%;
+	position: relative;
 }
 
 form{
@@ -30,7 +31,18 @@ form{
   height: 100px; 
 }  
 
-@media {
+@media screen and (min-width: 420px) {
+	
+	form{
+		font-size: 24px;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		margin: 5px;
+		gap: 5px;
+		
+		
+	}
 	
 }
-
